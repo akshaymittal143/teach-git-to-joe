@@ -2,7 +2,7 @@ read -p "Enter numberic value: " myvar
 
 if [ $myvar -gt 10 ]
 then
-  echo "OK"
+  echo "Greater than 10"
 else  
-  echo "Not ok"  
+  echo "Less than 10"  
 fi
